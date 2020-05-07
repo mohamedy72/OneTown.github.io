@@ -1,7 +1,7 @@
 /* Big screens */
 @media (min-width: 1200px) {
-    h1:not( .head-hero .logo-head .logo ) {
-        margin-left: 3rem ;
+    h1:not(.head-hero .logo-head .logo) {
+        margin-left: 3rem;
         font-size: 1.1rem;
     }
 
@@ -12,11 +12,12 @@
 
     h4 {
         font-size: 1.1rem;
-        padding-top: 5rem ;
+        padding-top: 5rem;
     }
 
     .container {
         width: 95vw;
+        height: 100%
     }
 
     .logo {
@@ -24,7 +25,9 @@
     }
 
     .hero-body {
+        display: block;
         margin-top: 15rem;
+        height: 100%
     }
 
     .hero-body .left .main-h1 {
@@ -112,24 +115,34 @@
 
 /* Medium Monitors Screens  */
 @media (max-width: 1199px) {
+    .container {
+        width: 95vw
+    }
 
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-bottom: 1rem;
     }
 
     h4 {
-        font-size: 0.9rem;
-        padding: 5rem 0.25rem 0 ;
+        padding: 7rem 1.4rem 0;
     }
 
+    h4,
+    .services .box2 h4 {
+        font-size: 1.1rem;
+    }
+
+    .services .box2 h4 {
+        padding: 6rem 1.4rem 0;
+    }
 
     .hero-body .text-area {
         width: 90%;
     }
 
     .hero-body {
-        margin-top: 12rem;
+        margin-top: 15rem;
     }
 
     .hero-body .text-area p {
@@ -143,20 +156,21 @@
     }
 
     .main-h1 {
-        margin: 0 ;
-        text-align: left ;
+        margin: 0;
+        text-align: left;
         width: 80%;
         padding: 0.8rem;
     }
-    
+
     .hero-body .left .main-h1 span:first-of-type {
-        font-size: 3.2rem
+        font-size: 4rem
     }
 
     .hero-body .left .main-h1 span:last-of-type {
-        margin-left: 1.1rem;
+        margin-left: 1.5rem;
         font-size: 1.6rem;
-        color: #e8e8e8
+        color: #e8e8e8;
+        letter-spacing: 0.4rem
     }
 
     .hero-body .left div,
@@ -177,7 +191,7 @@
     }
 
     .hero-body .right div:first-of-type {
-        float: right ;
+        float: right;
     }
 
     .hero-body .right {
@@ -196,28 +210,38 @@
     .hero-body .left h1 span:first-of-type {
         font-size: 2.5rem;
     }
+    
+    .content-right {
+        margin: 3rem 0
+    }
 }
 
 /* Mobile */
 @media (min-width: 801px) and (max-width: 991px) {
-    
+
     .hero-body .right,
-    .hero-body .left{
-        width: 45vw  
+    .hero-body .left {
+        width: 40vw
+    }
+
+    .btn {
+        margin: 0 auto;
+        width: 70%
     }
     
-    .hero-body .right .btn {
-        width: 70%
-            
-    }
 
     .hero-body .text-area {
-        width: 70%;
+        width: 80%;
     }
 
+    .hero-body .text-area p {
+        width: 100%;
+        padding: 2rem ;
+    }
+    
     .about-us p,
     .testimonials .text-area {
-        padding: 0 11rem;
+        padding: 0 8rem;
         font-size: 0.8rem;
     }
 
@@ -235,10 +259,14 @@
     }
 
     .show-work img:last-of-type {
-        width: 20%;
-        left: 0;
+        width: 10%;
+        left: 21%;
     }
     
+    .features .btn {
+        width: 25%
+    }
+
 
 }
 
@@ -249,15 +277,19 @@
     }
 
     h3 {
-        margin-bottom: 1rem ;
-    }
-
-
-    h4 {
-        font-size: 0.8rem;
-        padding: 4rem 0.5rem 0 ;
+        margin-bottom: 1rem;
     }
     
+    h4,
+    .services .box2 h4 {
+        font-size: 0.7rem;
+        padding: 4rem 0.4rem ;
+    }
+
+    .services .box2 h4 {
+        padding: 4rem 0.5rem 0;
+    }
+
     .btn {
         width: 45%;
         padding: 1rem;
@@ -282,7 +314,7 @@
     .hero-body .right {
         display: block;
         width: 100%;
-        height: 50% ;
+        height: 50%;
     }
 
     .hero-body .left {
@@ -291,11 +323,11 @@
 
     .main-h1 {
         width: 100%;
-        text-align: center ;
+        text-align: center;
     }
 
     .hero-body .left .main-h1 span:first-of-type {
-        font-size: 4.5rem ;
+        font-size: 4.5rem;
     }
 
     .hero-body .left .main-h1 span:last-of-type {
@@ -309,7 +341,7 @@
     }
 
     .right {
-        float: none ;
+        float: none;
         margin: 0 auto;
         height: 100%;
     }
@@ -321,7 +353,7 @@
     }
 
     .right .text-area p {
-        font-size: 0.8rem ;
+        font-size: 0.8rem;
         color: #eceaeae0;
         margin: 0 auto;
     }
@@ -340,7 +372,7 @@
         width: 20%;
         left: 0;
     }
-    
+
     .show-work .btn {
         border: 0.2px solid rgba(255, 255, 255, 0.4)
     }
@@ -357,7 +389,7 @@
     }
 
     .services .icon {
-        padding-top: 5rem ;
+        padding-top: 5rem;
     }
 
 
@@ -418,18 +450,17 @@
     }
 
     footer .address {
-        margin: 0.25rem 0 0 0.5rem ;
+        margin: 0.25rem 0 0 0.5rem;
         font-size: 0.8rem;
         text-align: center;
         padding-top: 1rem;
     }
 
     .address p {
-        display: block ;
+        display: block;
         padding-right: 1.5rem;
         margin-bottom: .5rem
-
     }
 
-    
+
 }
