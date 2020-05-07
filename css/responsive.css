@@ -43,6 +43,10 @@
     width: 55%;
   }
 
+  .hero-body .left {
+    width: 40%
+  }
+
   .hero-body .left div,
   .hero-body .right div:first-of-type {
     width: 35px;
