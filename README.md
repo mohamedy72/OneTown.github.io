@@ -20,4 +20,4 @@
 - Made the website responsive for medium screens.
 
 
-#### PS: I used floats just to make it a little bit competitive :)
+#### PS: I used floats for layout just to make it more competitive :)
