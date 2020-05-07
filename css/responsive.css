@@ -1,0 +1,420 @@
+/* Big screens */
+@media (min-width: 1200px) {
+  h1:not(.head-hero .logo-head h1) {
+    margin-left: 3rem !important;
+    font-size: 1.1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    padding: 5rem 0.5rem 0 !important;
+  }
+
+  .welcome .btn {
+    width: 50%;
+  }
+
+  .container {
+    width: 95vw;
+  }
+
+  .logo {
+    margin-left: 0.6rem;
+  }
+
+  .hero-body {
+    margin-top: 11rem;
+  }
+
+  .hero-body .left .main-h1 {
+    margin-left: 3rem;
+  }
+
+  .hero-body .left .main-h1 span:first-of-type {
+    font-size: 3.2rem;
+  }
+
+  .hero-body .right {
+    width: 55%;
+  }
+
+  .hero-body .left div,
+  .hero-body .right div:first-of-type {
+    width: 35px;
+    height: 35px;
+    position: relative;
+  }
+
+  .hero-body .left div span,
+  .hero-body .right div:first-of-type span {
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: .5rem
+  }
+
+  .hero-body .right div:first-of-type {
+    float: right;
+  }
+
+  .hero-body .text-area {
+    width: 90%;
+  }
+
+  .hero-body .text-area p {
+    font-size: 1rem;
+    padding: 2rem 1rem 1rem 0;
+    float: left;
+  }
+
+  .services .top>div,
+  .services .bottom>div {
+    height: 34vh;
+  }
+
+  .about-us p {
+    padding: 0 18rem;
+  }
+
+  .testimonials .text-area {
+    padding: 0 15rem;
+    font-size: 0.8rem;
+  }
+
+  footer .footer-nav {
+    width: 40%;
+
+  }
+
+  .address {
+    text-align: right;
+
+  }
+
+  footer .address p {
+    display: inline-block;
+    padding-right: 3rem;
+  }
+}
+
+/* Medium Monitors Screens  */
+@media (max-width: 1199px) {
+  h1:not(.head-hero .logo-head h1) {
+    margin-left: 2rem !important;
+    font-size: 0.9rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+    padding: 5rem 0.25rem 0 !important;
+  }
+
+  .welcome .btn {
+    width: 50%;
+  }
+
+
+  .hero-body .text-area {
+    width: 90%;
+  }
+
+  .hero-body {
+    margin-top: 12rem;
+  }
+
+  .hero-body .text-area p {
+    font-size: 0.8rem;
+    padding: 1rem;
+    float: left;
+  }
+
+  .icon {
+    padding-top: 5.5rem;
+  }
+
+  .main-h1 {
+    margin: 0 !important;
+    text-align: left !important;
+    width: 80%;
+    padding: 0.8rem;
+  }
+
+  .hero-body .left h1 span:last-of-type {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .hero-body .left div,
+  .hero-body .right div:first-of-type {
+    width: 35px;
+    height: 35px;
+    position: relative;
+  }
+
+  .hero-body .left div span,
+  .hero-body .right div:first-of-type span {
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: .5rem
+  }
+
+  .hero-body .right div:first-of-type {
+    float: right !important;
+  }
+
+  .hero-body .right {
+    width: 55%;
+  }
+
+  .hero-body .left {
+    width: 40%;
+  }
+
+  .hero-body .left h1 {
+    margin-left: 2rem;
+  }
+
+  .hero-body .left h1 span:first-of-type {
+    font-size: 2.5rem;
+  }
+}
+
+/* Mobile */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+  .hero-body .text-area {
+    width: 80%;
+  }
+
+  .about-us p,
+  .testimonials .text-area {
+    padding: 0 11rem;
+
+    font-size: 0.8rem;
+  }
+
+  .testimonials cite {
+    font-size: 0.6rem;
+  }
+
+  .welcome .content-right {
+    width: 45vw;
+    padding: 0 3rem;
+  }
+
+  .btn {
+    width: 50%;
+  }
+
+  .show-work img {
+    width: 100%;
+  }
+
+  .show-work img:last-of-type {
+    width: 20%;
+    left: 0;
+  }
+}
+
+/* Old Mobiles with extra small screens */
+@media (max-width: 767px) {
+  * {
+    float: none;
+  }
+
+  h3 {
+    margin-bottom: 1rem !important;
+    padding-top: 1.5rem;
+  }
+
+
+  h4 {
+    font-size: 0.8rem;
+    padding: 4rem 0.5rem 0 !important;
+  }
+
+  .head-hero {
+    background-position: top 30%;
+
+  }
+
+  .logo-head #main-nav {
+    display: none;
+  }
+
+  .hero-body {
+    margin-top: 6.5rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .hero-body .left,
+  .hero-body .right {
+    display: block;
+    width: 100%;
+    height: 50% !important;
+  }
+
+  .hero-body .left {
+    margin-bottom: 2rem;
+  }
+
+  .main-h1 {
+    width: 100%;
+    text-align: center !important;
+  }
+
+  .right .btn {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .hero-body .left .main-h1 span:first-of-type {
+    font-size: 4.5rem !important;
+  }
+
+  .hero-body .left .main-h1 span:last-of-type {
+    font-size: 1.2rem;
+    letter-spacing: 0.7rem;
+  }
+
+  .hero-body .left div,
+  .hero-body .right div:first-of-type {
+    display: none;
+  }
+
+  .right {
+    float: none !important;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .right .text-area {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .right .text-area p {
+    font-size: 0.8rem !important;
+    color: #eceaeae0;
+    margin: 0 auto;
+  }
+
+  .img-left,
+  .content-right {
+    display: block;
+    width: 100%;
+  }
+
+  .show-work img {
+    width: 100%;
+  }
+
+  .show-work img:last-of-type {
+    width: 20%;
+    left: 0;
+  }
+
+  .content-right .text-area {
+    padding-top: 1rem;
+  }
+
+
+
+  .services .top>div,
+  .services .bottom>div {
+    height: 25vh;
+  }
+
+  .services .icon {
+    padding-top: 5rem !important;
+  }
+
+
+  .about-us p {
+    padding: 0 1rem;
+  }
+
+  .about-us .box {
+    width: 8rem;
+  }
+
+  .about-us .box:last-of-type {
+    margin-right: 0;
+  }
+
+  .about-us .icons {
+    top: 0;
+  }
+
+  .about-us .icons cite {
+    font-size: 0.7rem;
+  }
+
+
+  .testimonials .text-area {
+    width: 100%;
+    padding: 0 1rem;
+    font-size: 0.8rem;
+  }
+
+  .testimonials cite {
+    font-size: 0.75rem;
+  }
+
+
+  .newsletter form {
+    width: 95% !important;
+  }
+
+
+  footer>div {
+    display: block;
+    width: 50%;
+  }
+
+  footer .footer-nav {
+    margin: 0.25rem 0 0 0.5rem;
+  }
+
+  footer .footer-nav li {
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+
+  footer .footer-nav li a {
+    font-size: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  footer .address {
+    margin: 0.25rem 0 0 0.5rem !important;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .address p {
+    display: block !important;
+    padding-right: 1.5rem !important;
+
+  }
+
+}
