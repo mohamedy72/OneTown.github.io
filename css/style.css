@@ -125,7 +125,7 @@ hr {
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(75, 6, 65, 0.5), rgba(75, 6, 65, 0.5)),
-        url(../resources/hero.jpg) no-repeat center center /cover fixed;
+        url(../resources/Hero.jpg) no-repeat center center /cover fixed;
 }
 
 
